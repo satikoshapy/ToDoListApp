@@ -1,0 +1,17 @@
+C:\_development\ToDoListApp\ToDoListApp.Infrastructure\bin\Debug\net8.0\ToDoListApp.Infrastructure.deps.json
+C:\_development\ToDoListApp\ToDoListApp.Infrastructure\bin\Debug\net8.0\ToDoListApp.Infrastructure.dll
+C:\_development\ToDoListApp\ToDoListApp.Infrastructure\bin\Debug\net8.0\ToDoListApp.Infrastructure.pdb
+C:\_development\ToDoListApp\ToDoListApp.Infrastructure\bin\Debug\net8.0\ToDoListApp.AppLogic.dll
+C:\_development\ToDoListApp\ToDoListApp.Infrastructure\bin\Debug\net8.0\ToDoListApp.Domain.dll
+C:\_development\ToDoListApp\ToDoListApp.Infrastructure\bin\Debug\net8.0\ToDoListApp.AppLogic.pdb
+C:\_development\ToDoListApp\ToDoListApp.Infrastructure\bin\Debug\net8.0\ToDoListApp.Domain.pdb
+C:\_development\ToDoListApp\ToDoListApp.Infrastructure\obj\Debug\net8.0\ToDoListApp.Infrastructure.csproj.AssemblyReference.cache
+C:\_development\ToDoListApp\ToDoListApp.Infrastructure\obj\Debug\net8.0\ToDoListApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\_development\ToDoListApp\ToDoListApp.Infrastructure\obj\Debug\net8.0\ToDoListApp.Infrastructure.AssemblyInfoInputs.cache
+C:\_development\ToDoListApp\ToDoListApp.Infrastructure\obj\Debug\net8.0\ToDoListApp.Infrastructure.AssemblyInfo.cs
+C:\_development\ToDoListApp\ToDoListApp.Infrastructure\obj\Debug\net8.0\ToDoListApp.Infrastructure.csproj.CoreCompileInputs.cache
+C:\_development\ToDoListApp\ToDoListApp.Infrastructure\obj\Debug\net8.0\ToDoList.C91474D3.Up2Date
+C:\_development\ToDoListApp\ToDoListApp.Infrastructure\obj\Debug\net8.0\ToDoListApp.Infrastructure.dll
+C:\_development\ToDoListApp\ToDoListApp.Infrastructure\obj\Debug\net8.0\refint\ToDoListApp.Infrastructure.dll
+C:\_development\ToDoListApp\ToDoListApp.Infrastructure\obj\Debug\net8.0\ToDoListApp.Infrastructure.pdb
+C:\_development\ToDoListApp\ToDoListApp.Infrastructure\obj\Debug\net8.0\ref\ToDoListApp.Infrastructure.dll

@@ -1,0 +1,15 @@
+C:\_development\ToDoListApp\ToDoListApp.AppLogic\bin\Debug\net8.0\ToDoListApp.AppLogic.deps.json
+C:\_development\ToDoListApp\ToDoListApp.AppLogic\bin\Debug\net8.0\ToDoListApp.AppLogic.dll
+C:\_development\ToDoListApp\ToDoListApp.AppLogic\bin\Debug\net8.0\ToDoListApp.AppLogic.pdb
+C:\_development\ToDoListApp\ToDoListApp.AppLogic\bin\Debug\net8.0\ToDoListApp.Domain.dll
+C:\_development\ToDoListApp\ToDoListApp.AppLogic\bin\Debug\net8.0\ToDoListApp.Domain.pdb
+C:\_development\ToDoListApp\ToDoListApp.AppLogic\obj\Debug\net8.0\ToDoListApp.AppLogic.csproj.AssemblyReference.cache
+C:\_development\ToDoListApp\ToDoListApp.AppLogic\obj\Debug\net8.0\ToDoListApp.AppLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\_development\ToDoListApp\ToDoListApp.AppLogic\obj\Debug\net8.0\ToDoListApp.AppLogic.AssemblyInfoInputs.cache
+C:\_development\ToDoListApp\ToDoListApp.AppLogic\obj\Debug\net8.0\ToDoListApp.AppLogic.AssemblyInfo.cs
+C:\_development\ToDoListApp\ToDoListApp.AppLogic\obj\Debug\net8.0\ToDoListApp.AppLogic.csproj.CoreCompileInputs.cache
+C:\_development\ToDoListApp\ToDoListApp.AppLogic\obj\Debug\net8.0\ToDoList.6AB6957C.Up2Date
+C:\_development\ToDoListApp\ToDoListApp.AppLogic\obj\Debug\net8.0\ToDoListApp.AppLogic.dll
+C:\_development\ToDoListApp\ToDoListApp.AppLogic\obj\Debug\net8.0\refint\ToDoListApp.AppLogic.dll
+C:\_development\ToDoListApp\ToDoListApp.AppLogic\obj\Debug\net8.0\ToDoListApp.AppLogic.pdb
+C:\_development\ToDoListApp\ToDoListApp.AppLogic\obj\Debug\net8.0\ref\ToDoListApp.AppLogic.dll
