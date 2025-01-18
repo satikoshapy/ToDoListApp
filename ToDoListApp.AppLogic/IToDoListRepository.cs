@@ -8,5 +8,9 @@ namespace ToDoListApp.AppLogic
         ToDoList? GetById(Guid id);
         ToDoList AddNew(string title);
         void AddItemToExistingList(Guid listId, string itemDescription);
+
+        public List<ToDoList> GetAll();
+        public IEnumerable<ToDoList> SearchLists(string search);
+
     }
 }

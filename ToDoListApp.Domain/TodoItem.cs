@@ -19,7 +19,14 @@ namespace ToDoListApp.Domain
 
         public static ToDoItem CreateNew(string description)
         {
-            throw new NotImplementedException();
+            return new ToDoItem
+            {
+                Id = Guid.NewGuid(),
+                Description = description,
+                IsDone = false
+            };
+
+
         }
     }
 }

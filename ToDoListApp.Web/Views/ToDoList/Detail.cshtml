@@ -1,0 +1,50 @@
+﻿@model ToDoListApp.Web.Models.ToDoListDetailViewModel
+
+<div class="container">
+    <h1 class="display-4 text-center mb-3">@Model.List.Title - Detail</h1>
+    @foreach (var item in Model.List.Items)
+    {
+        <div class="row mb-3">
+            <div class="col-12">
+                <div class="card my-1">
+                    <div class="card-body">
+                        <h5 class="card-title">@item.Description</h5>
+                        <div class="form-check">
+                            <input class="form-check-input" />
+                            <label class="form-check-label">@item.IsDone</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+    <div class="row mb-3">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-body">
+                    @using (Html.BeginForm("Create", "ToDoList", FormMethod.Post))
+{
+                        <div class="row mb-3">
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                            <label asp-for="NewItemDescription" class="col-sm-3 col-form-label"></label>
+                            <div class="col-sm-6">
+                                <input asp-for="NewItemDescription" class="form-control">
+                            </div>
+                            <span asp-validation-for="NewItemDescription" class="text-danger"></span>
+                            <div class="col-sm-3">
+                                <button type="submit" class="btn btn-primary mb-2">Add item</button>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <div class="col-12">
+            <a asp-page="Search" class="btn btn-outline-secondary">Back to search</a>
+        </div>
+    </div>
+
+</div>

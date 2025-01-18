@@ -1,1 +1,60 @@
-[]
+[
+  {
+    "ContainingType": "ToDoListApp.Web.Controllers.api.TodoListsController",
+    "Method": "CreateList",
+    "RelativePath": "api/TodoLists",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "ToDoListApp.Web.Models.AddNewToDoListModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ToDoListApp.Web.Controllers.api.TodoListsController",
+    "Method": "GetList",
+    "RelativePath": "api/TodoLists/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ToDoListApp.Web.Controllers.api.TodoListsController",
+    "Method": "UpdateItem",
+    "RelativePath": "api/TodoLists/{listId}/items/{itemId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "listId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "itemId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "ToDoListApp.Web.Models.UpdateToDoItemModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

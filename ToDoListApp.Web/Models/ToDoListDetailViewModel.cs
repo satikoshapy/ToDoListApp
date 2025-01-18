@@ -9,6 +9,8 @@ namespace ToDoListApp.Web.Models
 
         public Guid ListId { get; set; }
 
+        [Required(ErrorMessage ="The new item field is required")]
+        [MinLength(4, ErrorMessage = "The field new item description must be a string with á minimum length '4' characters")]
         public string NewItemDescription { get; set; }
 
         public ToDoListDetailViewModel()

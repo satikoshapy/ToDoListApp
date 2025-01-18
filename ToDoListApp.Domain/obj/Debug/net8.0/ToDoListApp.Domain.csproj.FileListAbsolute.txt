@@ -5,6 +5,7 @@ C:\_development\ToDoListApp\ToDoListApp.Domain\obj\Debug\net8.0\ToDoListApp.Doma
 C:\_development\ToDoListApp\ToDoListApp.Domain\obj\Debug\net8.0\ToDoListApp.Domain.AssemblyInfoInputs.cache
 C:\_development\ToDoListApp\ToDoListApp.Domain\obj\Debug\net8.0\ToDoListApp.Domain.AssemblyInfo.cs
 C:\_development\ToDoListApp\ToDoListApp.Domain\obj\Debug\net8.0\ToDoListApp.Domain.csproj.CoreCompileInputs.cache
+C:\_development\ToDoListApp\ToDoListApp.Domain\obj\Debug\net8.0\ToDoListApp.Domain.sourcelink.json
 C:\_development\ToDoListApp\ToDoListApp.Domain\obj\Debug\net8.0\ToDoListApp.Domain.dll
 C:\_development\ToDoListApp\ToDoListApp.Domain\obj\Debug\net8.0\refint\ToDoListApp.Domain.dll
 C:\_development\ToDoListApp\ToDoListApp.Domain\obj\Debug\net8.0\ToDoListApp.Domain.pdb

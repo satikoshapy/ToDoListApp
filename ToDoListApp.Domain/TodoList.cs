@@ -19,7 +19,13 @@ namespace ToDoListApp.Domain
 
         public static ToDoList CreateNew(string title)
         {
-            throw new NotImplementedException();
+            Guid id = new Guid();
+            return new ToDoList(id, title)
+            {
+                Id = id,
+                Title = title,
+                Items = new List<ToDoItem>()
+            };
         }
     }
 }

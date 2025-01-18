@@ -95,6 +95,7 @@ C:\_development\ToDoListApp\ToDoListApp.Domain.Tests\obj\Debug\net8.0\ToDoListAp
 C:\_development\ToDoListApp\ToDoListApp.Domain.Tests\obj\Debug\net8.0\ToDoListApp.Domain.Tests.AssemblyInfoInputs.cache
 C:\_development\ToDoListApp\ToDoListApp.Domain.Tests\obj\Debug\net8.0\ToDoListApp.Domain.Tests.AssemblyInfo.cs
 C:\_development\ToDoListApp\ToDoListApp.Domain.Tests\obj\Debug\net8.0\ToDoListApp.Domain.Tests.csproj.CoreCompileInputs.cache
+C:\_development\ToDoListApp\ToDoListApp.Domain.Tests\obj\Debug\net8.0\ToDoListApp.Domain.Tests.sourcelink.json
 C:\_development\ToDoListApp\ToDoListApp.Domain.Tests\obj\Debug\net8.0\ToDoList.BEAFB760.Up2Date
 C:\_development\ToDoListApp\ToDoListApp.Domain.Tests\obj\Debug\net8.0\ToDoListApp.Domain.Tests.dll
 C:\_development\ToDoListApp\ToDoListApp.Domain.Tests\obj\Debug\net8.0\refint\ToDoListApp.Domain.Tests.dll

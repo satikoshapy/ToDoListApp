@@ -10,23 +10,30 @@ namespace ToDoListApp.Web
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
+            
 
             builder.Services.AddDbContext<ToDoListContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("ToDoListDBConnection")
     , sqlOptions => sqlOptions.EnableRetryOnFailure()));
 
-            // Add services to the container.
+            
             builder.Services.AddControllersWithViews();
 
+            builder.Services.AddRazorPages();
+
+            builder.Services.AddScoped<IToDoListRepository, ToDoListRepositoryImpl>();
+
+            builder.Services.AddScoped<IToDoItemRepository, ToDoItemRepositoryImpl>();
+
+            builder.Services.AddSwaggerGen();
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
             {
-                app.UseExceptionHandler("/Home/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-                app.UseHsts();
+                
+                app.UseSwagger();                      
+                app.UseSwaggerUI();
             }
 
             app.UseHttpsRedirection();
@@ -36,12 +43,17 @@ namespace ToDoListApp.Web
             app.UseRouting();
 
             app.UseAuthorization();
-
-            app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+            app.MapRazorPages();
+            app.MapControllers();
+            
+            app.MapDefaultControllerRoute();
+    //            (
+    //name: "default",
+    //pattern: "{controller=Home}/{action=Index}/{id?}");
 
             app.Run();
         }
     }
+
+    
 }

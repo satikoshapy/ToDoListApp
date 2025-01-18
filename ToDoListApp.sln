@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoListApp.AppLogic", "ToD
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoListApp.Infrastructure", "ToDoListApp.Infrastructure\ToDoListApp.Infrastructure.csproj", "{C295A737-44A7-4F09-BE14-A93CB76046C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoListApp.Domain.Tests", "ToDoListApp.Domain.Tests\ToDoListApp.Domain.Tests.csproj", "{E8B1F1E0-D9B6-40B7-93FA-C348AE48A84E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoListApp.Domain.Tests", "ToDoListApp.Domain.Tests\ToDoListApp.Domain.Tests.csproj", "{E8B1F1E0-D9B6-40B7-93FA-C348AE48A84E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

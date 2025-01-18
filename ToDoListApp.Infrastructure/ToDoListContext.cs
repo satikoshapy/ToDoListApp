@@ -7,7 +7,7 @@ namespace ToDoListApp.Infrastructure
     public class ToDoListContext : DbContext
     {
 
-        DbSet<ToDoList> ToDoLists { get; set; }
+        public DbSet<ToDoList> ToDoLists { get; set; }
 
 
         public ToDoListContext(DbContextOptions<ToDoListContext> options) : base(options)
