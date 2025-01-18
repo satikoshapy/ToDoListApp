@@ -1,4 +1,5 @@
-﻿using Microsoft.Identity.Client;
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Identity.Client;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,10 +22,16 @@ namespace ToDoListApp.Infrastructure
         }
         public void AddItemToExistingList(Guid listId, string itemDescription)
         {
-            ToDoList list = _context.ToDoLists.FirstOrDefault(list => list.Id == listId);
+            var list = _context.ToDoLists
+                .Include(t => t.Items) // Ensure navigation property is loaded
+                .FirstOrDefault(list => list.Id == listId);
             if (list != null)
             {
-                list.Items.Add(ToDoItem.CreateNew(itemDescription));
+                var item = ToDoItem.CreateNew(itemDescription);
+                _context.Attach(item);
+                list.Items.Add(item);
+                _context.ToDoLists.Update(list);
+                _context.ChangeTracker.DetectChanges();
                 _context.SaveChanges();
             }
             
@@ -42,22 +49,23 @@ namespace ToDoListApp.Infrastructure
         {
             if (string.IsNullOrWhiteSpace(titleFilter))
             {
-                return _context.ToDoLists.ToList();
+                return _context.ToDoLists.Include(t => t.Items).ToList();
             }
 
             return _context.ToDoLists
                 .Where(list => list.Title.Contains(titleFilter))
+                .Include(t => t.Items)
                 .ToList();
         }
 
         public ToDoList? GetById(Guid id)
         {
-            return _context.ToDoLists.FirstOrDefault(list => list.Id == id);
+            return _context.ToDoLists.Include(t => t.Items).FirstOrDefault(list => list.Id == id);
         }
 
         public List<ToDoList> GetAll()
         {
-            return _context.ToDoLists.ToList();
+            return _context.ToDoLists.Include(t => t.Items).ToList();
         }
 
         public IEnumerable<ToDoList> SearchLists(string search)

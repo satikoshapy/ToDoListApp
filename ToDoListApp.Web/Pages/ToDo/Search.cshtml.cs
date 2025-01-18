@@ -19,29 +19,32 @@ namespace ToDoListApp.Web.Pages.ToDo
 
         [BindProperty]
         public List<ToDoList> ToDoLists { get; set; } = new List<ToDoList>();
-        public IActionResult OnGet()
+        public void OnGet()
         {
 
-            return Page();
+            //return Page();
         }
 
         public IActionResult OnPost()
         {
+            Console.WriteLine("OnPost invoked");
             if (!ModelState.IsValid)
             {
+                // Log the errors for debugging
+                foreach (var error in ModelState)
+                {
+                    Console.WriteLine($"{error.Key}: {string.Join(", ", error.Value.Errors.Select(e => e.ErrorMessage))}");
+                }
+
                 return Page();
             }
 
-            List<ToDoList> result = (List<ToDoList>)_repo.Find(TitleFilter);
-
-            if (result.Count > 0)
-            {
-                ToDoLists = result;
-            }
-
-
+            ToDoLists = string.IsNullOrWhiteSpace(TitleFilter)
+                ? _repo.GetAll().ToList()
+                : _repo.Find(TitleFilter).ToList();
 
             return Page();
         }
+
     }
 }

@@ -29,6 +29,7 @@
                             <label asp-for="NewItemDescription" class="col-sm-3 col-form-label"></label>
                             <div class="col-sm-6">
                                 <input asp-for="NewItemDescription" class="form-control">
+                                <input hidden="true" asp-for="ListId" value="@Model.List.Id" class="form-control">
                             </div>
                             <span asp-validation-for="NewItemDescription" class="text-danger"></span>
                             <div class="col-sm-3">
@@ -43,7 +44,7 @@
 
     <div class="row mb-3">
         <div class="col-12">
-            <a asp-page="Search" class="btn btn-outline-secondary">Back to search</a>
+            <a asp-controller="ToDo" asp-action="Search" class="btn btn-outline-secondary">Back to search</a>
         </div>
     </div>
 

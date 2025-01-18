@@ -20,9 +20,12 @@ namespace ToDoListApp.Infrastructure
         {
             base.OnModelCreating(modelBuilder);
 
-            
 
-            modelBuilder.Entity<ToDoItem>().HasData();
+
+            modelBuilder.Entity<ToDoList>()
+        .HasMany(t => t.Items)
+        .WithOne()
+        .HasForeignKey("ToDoListId");
 
         }
 

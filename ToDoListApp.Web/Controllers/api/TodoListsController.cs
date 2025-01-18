@@ -48,6 +48,7 @@ namespace ToDoListApp.Web.Controllers.api
         public IActionResult UpdateItem(Guid listId, Guid itemId, [FromBody] UpdateToDoItemModel model)
         {
             var item = _itemRepository.Update(itemId, model.IsDone);
+            model = new UpdateToDoItemModel();
 
             return Ok(item);
         }

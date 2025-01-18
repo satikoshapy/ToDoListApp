@@ -16,7 +16,8 @@ namespace ToDoListApp.Web
     options.UseSqlServer(builder.Configuration.GetConnectionString("ToDoListDBConnection")
     , sqlOptions => sqlOptions.EnableRetryOnFailure()));
 
-            
+            builder.Services.AddAntiforgery();
+
             builder.Services.AddControllersWithViews();
 
             builder.Services.AddRazorPages();
@@ -44,8 +45,10 @@ namespace ToDoListApp.Web
 
             app.UseAuthorization();
             app.MapRazorPages();
-            app.MapControllers();
-            
+            app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Home}/{action=Index}/{id?}");
+
             app.MapDefaultControllerRoute();
     //            (
     //name: "default",

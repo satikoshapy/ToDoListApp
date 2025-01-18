@@ -21,7 +21,7 @@ namespace ToDoListApp.Web.Controllers
 
             if (result == null)
             {
-
+                return NotFound();
             }
 
             var viewModel = new ToDoListDetailViewModel(result);
@@ -30,11 +30,13 @@ namespace ToDoListApp.Web.Controllers
         }
 
         [HttpPost]
-        public void Create(ToDoListDetailViewModel model)
+        public IActionResult Create(ToDoListDetailViewModel model)
         {
             
             _repository.AddItemToExistingList(model.ListId, model.NewItemDescription);
-            
+
+            return RedirectToAction("Detail", new { id = model.ListId });
+
         }
     }
 }

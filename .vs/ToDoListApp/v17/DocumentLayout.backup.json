@@ -3,40 +3,64 @@
   "WorkspaceRootPath": "C:\\_development\\ToDoListApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{34159FA0-BCC4-4153-AA57-0B1C302A51CC}|ToDoListApp.Web\\ToDoListApp.Web.csproj|c:\\_development\\todolistapp\\todolistapp.web\\pages\\todo\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{34159FA0-BCC4-4153-AA57-0B1C302A51CC}|ToDoListApp.Web\\ToDoListApp.Web.csproj|solutionrelative:todolistapp.web\\pages\\todo\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C295A737-44A7-4F09-BE14-A93CB76046C6}|ToDoListApp.Infrastructure\\ToDoListApp.Infrastructure.csproj|c:\\_development\\todolistapp\\todolistapp.infrastructure\\todolistrepositoryimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C295A737-44A7-4F09-BE14-A93CB76046C6}|ToDoListApp.Infrastructure\\ToDoListApp.Infrastructure.csproj|solutionrelative:todolistapp.infrastructure\\todolistrepositoryimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34159FA0-BCC4-4153-AA57-0B1C302A51CC}|ToDoListApp.Web\\ToDoListApp.Web.csproj|c:\\_development\\todolistapp\\todolistapp.web\\pages\\todo\\search.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34159FA0-BCC4-4153-AA57-0B1C302A51CC}|ToDoListApp.Web\\ToDoListApp.Web.csproj|solutionrelative:todolistapp.web\\pages\\todo\\search.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34159FA0-BCC4-4153-AA57-0B1C302A51CC}|ToDoListApp.Web\\ToDoListApp.Web.csproj|c:\\_development\\todolistapp\\todolistapp.web\\views\\todolist\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{34159FA0-BCC4-4153-AA57-0B1C302A51CC}|ToDoListApp.Web\\ToDoListApp.Web.csproj|solutionrelative:todolistapp.web\\views\\todolist\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34159FA0-BCC4-4153-AA57-0B1C302A51CC}|ToDoListApp.Web\\ToDoListApp.Web.csproj|c:\\_development\\todolistapp\\todolistapp.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{34159FA0-BCC4-4153-AA57-0B1C302A51CC}|ToDoListApp.Web\\ToDoListApp.Web.csproj|solutionrelative:todolistapp.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C295A737-44A7-4F09-BE14-A93CB76046C6}|ToDoListApp.Infrastructure\\ToDoListApp.Infrastructure.csproj|c:\\_development\\todolistapp\\todolistapp.infrastructure\\todolistcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C295A737-44A7-4F09-BE14-A93CB76046C6}|ToDoListApp.Infrastructure\\ToDoListApp.Infrastructure.csproj|solutionrelative:todolistapp.infrastructure\\todolistcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{34159FA0-BCC4-4153-AA57-0B1C302A51CC}|ToDoListApp.Web\\ToDoListApp.Web.csproj|c:\\_development\\todolistapp\\todolistapp.web\\controllers\\todolistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34159FA0-BCC4-4153-AA57-0B1C302A51CC}|ToDoListApp.Web\\ToDoListApp.Web.csproj|solutionrelative:todolistapp.web\\controllers\\todolistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{34159FA0-BCC4-4153-AA57-0B1C302A51CC}|ToDoListApp.Web\\ToDoListApp.Web.csproj|c:\\_development\\todolistapp\\todolistapp.web\\views\\todolist\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34159FA0-BCC4-4153-AA57-0B1C302A51CC}|ToDoListApp.Web\\ToDoListApp.Web.csproj|solutionrelative:todolistapp.web\\views\\todolist\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E1942D0-1298-4C0E-8910-1B70A624DD8E}|ToDoListApp.Domain\\ToDoListApp.Domain.csproj|c:\\_development\\todolistapp\\todolistapp.domain\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E1942D0-1298-4C0E-8910-1B70A624DD8E}|ToDoListApp.Domain\\ToDoListApp.Domain.csproj|solutionrelative:todolistapp.domain\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34159FA0-BCC4-4153-AA57-0B1C302A51CC}|ToDoListApp.Web\\ToDoListApp.Web.csproj|c:\\_development\\todolistapp\\todolistapp.web\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34159FA0-BCC4-4153-AA57-0B1C302A51CC}|ToDoListApp.Web\\ToDoListApp.Web.csproj|solutionrelative:todolistapp.web\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{34159FA0-BCC4-4153-AA57-0B1C302A51CC}|ToDoListApp.Web\\ToDoListApp.Web.csproj|c:\\_development\\todolistapp\\todolistapp.web\\models\\todolistdetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34159FA0-BCC4-4153-AA57-0B1C302A51CC}|ToDoListApp.Web\\ToDoListApp.Web.csproj|solutionrelative:todolistapp.web\\models\\todolistdetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C295A737-44A7-4F09-BE14-A93CB76046C6}|ToDoListApp.Infrastructure\\ToDoListApp.Infrastructure.csproj|c:\\_development\\todolistapp\\todolistapp.infrastructure\\todolistrepositoryimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C295A737-44A7-4F09-BE14-A93CB76046C6}|ToDoListApp.Infrastructure\\ToDoListApp.Infrastructure.csproj|solutionrelative:todolistapp.infrastructure\\todolistrepositoryimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{34159FA0-BCC4-4153-AA57-0B1C302A51CC}|ToDoListApp.Web\\ToDoListApp.Web.csproj|c:\\_development\\todolistapp\\todolistapp.web\\pages\\todo\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34159FA0-BCC4-4153-AA57-0B1C302A51CC}|ToDoListApp.Web\\ToDoListApp.Web.csproj|solutionrelative:todolistapp.web\\pages\\todo\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C295A737-44A7-4F09-BE14-A93CB76046C6}|ToDoListApp.Infrastructure\\ToDoListApp.Infrastructure.csproj|c:\\_development\\todolistapp\\todolistapp.infrastructure\\todoitemrepositoryimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C295A737-44A7-4F09-BE14-A93CB76046C6}|ToDoListApp.Infrastructure\\ToDoListApp.Infrastructure.csproj|solutionrelative:todolistapp.infrastructure\\todoitemrepositoryimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{34159FA0-BCC4-4153-AA57-0B1C302A51CC}|ToDoListApp.Web\\ToDoListApp.Web.csproj|c:\\_development\\todolistapp\\todolistapp.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34159FA0-BCC4-4153-AA57-0B1C302A51CC}|ToDoListApp.Web\\ToDoListApp.Web.csproj|solutionrelative:todolistapp.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34159FA0-BCC4-4153-AA57-0B1C302A51CC}|ToDoListApp.Web\\ToDoListApp.Web.csproj|c:\\_development\\todolistapp\\todolistapp.web\\pages\\todo\\search.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34159FA0-BCC4-4153-AA57-0B1C302A51CC}|ToDoListApp.Web\\ToDoListApp.Web.csproj|solutionrelative:todolistapp.web\\pages\\todo\\search.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34159FA0-BCC4-4153-AA57-0B1C302A51CC}|ToDoListApp.Web\\ToDoListApp.Web.csproj|c:\\_development\\todolistapp\\todolistapp.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34159FA0-BCC4-4153-AA57-0B1C302A51CC}|ToDoListApp.Web\\ToDoListApp.Web.csproj|solutionrelative:todolistapp.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34159FA0-BCC4-4153-AA57-0B1C302A51CC}|ToDoListApp.Web\\ToDoListApp.Web.csproj|c:\\_development\\todolistapp\\todolistapp.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34159FA0-BCC4-4153-AA57-0B1C302A51CC}|ToDoListApp.Web\\ToDoListApp.Web.csproj|solutionrelative:todolistapp.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{34159FA0-BCC4-4153-AA57-0B1C302A51CC}|ToDoListApp.Web\\ToDoListApp.Web.csproj|c:\\_development\\todolistapp\\todolistapp.web\\controllers\\api\\todolistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34159FA0-BCC4-4153-AA57-0B1C302A51CC}|ToDoListApp.Web\\ToDoListApp.Web.csproj|solutionrelative:todolistapp.web\\controllers\\api\\todolistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34159FA0-BCC4-4153-AA57-0B1C302A51CC}|ToDoListApp.Web\\ToDoListApp.Web.csproj|c:\\_development\\todolistapp\\todolistapp.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34159FA0-BCC4-4153-AA57-0B1C302A51CC}|ToDoListApp.Web\\ToDoListApp.Web.csproj|solutionrelative:todolistapp.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C295A737-44A7-4F09-BE14-A93CB76046C6}|ToDoListApp.Infrastructure\\ToDoListApp.Infrastructure.csproj|c:\\_development\\todolistapp\\todolistapp.infrastructure\\todoitemrepositoryimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C295A737-44A7-4F09-BE14-A93CB76046C6}|ToDoListApp.Infrastructure\\ToDoListApp.Infrastructure.csproj|solutionrelative:todolistapp.infrastructure\\todoitemrepositoryimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{34159FA0-BCC4-4153-AA57-0B1C302A51CC}|ToDoListApp.Web\\ToDoListApp.Web.csproj|c:\\_development\\todolistapp\\todolistapp.web\\models\\addnewtodolistmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,26 +82,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Search.cshtml.cs",
-              "DocumentMoniker": "C:\\_development\\ToDoListApp\\ToDoListApp.Web\\Pages\\ToDo\\Search.cshtml.cs",
-              "RelativeDocumentMoniker": "ToDoListApp.Web\\Pages\\ToDo\\Search.cshtml.cs",
-              "ToolTip": "C:\\_development\\ToDoListApp\\ToDoListApp.Web\\Pages\\ToDo\\Search.cshtml.cs*",
-              "RelativeToolTip": "ToDoListApp.Web\\Pages\\ToDo\\Search.cshtml.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "TodoItem.cs",
+              "DocumentMoniker": "C:\\_development\\ToDoListApp\\ToDoListApp.Domain\\TodoItem.cs",
+              "RelativeDocumentMoniker": "ToDoListApp.Domain\\TodoItem.cs",
+              "ToolTip": "C:\\_development\\ToDoListApp\\ToDoListApp.Domain\\TodoItem.cs",
+              "RelativeToolTip": "ToDoListApp.Domain\\TodoItem.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T16:45:38.347Z",
+              "WhenOpened": "2025-01-18T20:47:47.703Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "ToDoListContext.cs",
+              "DocumentMoniker": "C:\\_development\\ToDoListApp\\ToDoListApp.Infrastructure\\ToDoListContext.cs",
+              "RelativeDocumentMoniker": "ToDoListApp.Infrastructure\\ToDoListContext.cs",
+              "ToolTip": "C:\\_development\\ToDoListApp\\ToDoListApp.Infrastructure\\ToDoListContext.cs",
+              "RelativeToolTip": "ToDoListApp.Infrastructure\\ToDoListContext.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T20:44:46.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Search.cshtml",
               "DocumentMoniker": "C:\\_development\\ToDoListApp\\ToDoListApp.Web\\Pages\\ToDo\\Search.cshtml",
               "RelativeDocumentMoniker": "ToDoListApp.Web\\Pages\\ToDo\\Search.cshtml",
               "ToolTip": "C:\\_development\\ToDoListApp\\ToDoListApp.Web\\Pages\\ToDo\\Search.cshtml",
               "RelativeToolTip": "ToDoListApp.Web\\Pages\\ToDo\\Search.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAuwDUAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-18T16:44:10.58Z",
               "EditorCaption": ""
@@ -85,45 +122,148 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\_development\\ToDoListApp\\ToDoListApp.Web\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "ToDoListApp.Web\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\_development\\ToDoListApp\\ToDoListApp.Web\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "ToDoListApp.Web\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-18T16:42:05.454Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Detail.cshtml",
               "DocumentMoniker": "C:\\_development\\ToDoListApp\\ToDoListApp.Web\\Views\\ToDoList\\Detail.cshtml",
               "RelativeDocumentMoniker": "ToDoListApp.Web\\Views\\ToDoList\\Detail.cshtml",
               "ToolTip": "C:\\_development\\ToDoListApp\\ToDoListApp.Web\\Views\\ToDoList\\Detail.cshtml",
               "RelativeToolTip": "ToDoListApp.Web\\Views\\ToDoList\\Detail.cshtml",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAuwBQAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAuwB8AAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-18T16:12:38.622Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "ToDoListRepositoryImpl.cs",
               "DocumentMoniker": "C:\\_development\\ToDoListApp\\ToDoListApp.Infrastructure\\ToDoListRepositoryImpl.cs",
               "RelativeDocumentMoniker": "ToDoListApp.Infrastructure\\ToDoListRepositoryImpl.cs",
-              "ToolTip": "C:\\_development\\ToDoListApp\\ToDoListApp.Infrastructure\\ToDoListRepositoryImpl.cs",
-              "RelativeToolTip": "ToDoListApp.Infrastructure\\ToDoListRepositoryImpl.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwBIAAAAJAAAAAAAAAA==",
+              "ToolTip": "C:\\_development\\ToDoListApp\\ToDoListApp.Infrastructure\\ToDoListRepositoryImpl.cs*",
+              "RelativeToolTip": "ToDoListApp.Infrastructure\\ToDoListRepositoryImpl.cs*",
+              "ViewState": "AgIAABoAAAAAAAAAAAAuwCIAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-18T16:07:51.013Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "C:\\_development\\ToDoListApp\\ToDoListApp.Web\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "ToDoListApp.Web\\Controllers\\BaseController.cs",
+              "ToolTip": "C:\\_development\\ToDoListApp\\ToDoListApp.Web\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "ToDoListApp.Web\\Controllers\\BaseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T17:04:48.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ToDoListController.cs",
+              "DocumentMoniker": "C:\\_development\\ToDoListApp\\ToDoListApp.Web\\Controllers\\ToDoListController.cs",
+              "RelativeDocumentMoniker": "ToDoListApp.Web\\Controllers\\ToDoListController.cs",
+              "ToolTip": "C:\\_development\\ToDoListApp\\ToDoListApp.Web\\Controllers\\ToDoListController.cs",
+              "RelativeToolTip": "ToDoListApp.Web\\Controllers\\ToDoListController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAqwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T15:43:52.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ToDoListDetailViewModel.cs",
+              "DocumentMoniker": "C:\\_development\\ToDoListApp\\ToDoListApp.Web\\Models\\ToDoListDetailViewModel.cs",
+              "RelativeDocumentMoniker": "ToDoListApp.Web\\Models\\ToDoListDetailViewModel.cs",
+              "ToolTip": "C:\\_development\\ToDoListApp\\ToDoListApp.Web\\Models\\ToDoListDetailViewModel.cs",
+              "RelativeToolTip": "ToDoListApp.Web\\Models\\ToDoListDetailViewModel.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T15:49:38.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\_development\\ToDoListApp\\ToDoListApp.Web\\Program.cs",
+              "RelativeDocumentMoniker": "ToDoListApp.Web\\Program.cs",
+              "ToolTip": "C:\\_development\\ToDoListApp\\ToDoListApp.Web\\Program.cs",
+              "RelativeToolTip": "ToDoListApp.Web\\Program.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAuwDEAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T18:55:25.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Search.cshtml.cs",
+              "DocumentMoniker": "C:\\_development\\ToDoListApp\\ToDoListApp.Web\\Pages\\ToDo\\Search.cshtml.cs",
+              "RelativeDocumentMoniker": "ToDoListApp.Web\\Pages\\ToDo\\Search.cshtml.cs",
+              "ToolTip": "C:\\_development\\ToDoListApp\\ToDoListApp.Web\\Pages\\ToDo\\Search.cshtml.cs",
+              "RelativeToolTip": "ToDoListApp.Web\\Pages\\ToDo\\Search.cshtml.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAqwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T16:45:38.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\_development\\ToDoListApp\\ToDoListApp.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ToDoListApp.Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\_development\\ToDoListApp\\ToDoListApp.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ToDoListApp.Web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAIwBYAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-18T16:42:05.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\_development\\ToDoListApp\\ToDoListApp.Web\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ToDoListApp.Web\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\_development\\ToDoListApp\\ToDoListApp.Web\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ToDoListApp.Web\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-18T16:52:55.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\_development\\ToDoListApp\\ToDoListApp.Web\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ToDoListApp.Web\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\_development\\ToDoListApp\\ToDoListApp.Web\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ToDoListApp.Web\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T16:59:02.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TodoListsController.cs",
+              "DocumentMoniker": "C:\\_development\\ToDoListApp\\ToDoListApp.Web\\Controllers\\api\\TodoListsController.cs",
+              "RelativeDocumentMoniker": "ToDoListApp.Web\\Controllers\\api\\TodoListsController.cs",
+              "ToolTip": "C:\\_development\\ToDoListApp\\ToDoListApp.Web\\Controllers\\api\\TodoListsController.cs",
+              "RelativeToolTip": "ToDoListApp.Web\\Controllers\\api\\TodoListsController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAA8wDUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T13:19:37.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "ToDoItemRepositoryImpl.cs",
               "DocumentMoniker": "C:\\_development\\ToDoListApp\\ToDoListApp.Infrastructure\\ToDoItemRepositoryImpl.cs",
               "RelativeDocumentMoniker": "ToDoListApp.Infrastructure\\ToDoItemRepositoryImpl.cs",
@@ -131,51 +271,11 @@
               "RelativeToolTip": "ToDoListApp.Infrastructure\\ToDoItemRepositoryImpl.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T16:07:38.6Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-18T16:07:38.6Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ToDoListDetailViewModel.cs",
-              "DocumentMoniker": "C:\\_development\\ToDoListApp\\ToDoListApp.Web\\Models\\ToDoListDetailViewModel.cs",
-              "RelativeDocumentMoniker": "ToDoListApp.Web\\Models\\ToDoListDetailViewModel.cs",
-              "ToolTip": "C:\\_development\\ToDoListApp\\ToDoListApp.Web\\Models\\ToDoListDetailViewModel.cs",
-              "RelativeToolTip": "ToDoListApp.Web\\Models\\ToDoListDetailViewModel.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T15:49:38.168Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ToDoListController.cs",
-              "DocumentMoniker": "C:\\_development\\ToDoListApp\\ToDoListApp.Web\\Controllers\\ToDoListController.cs",
-              "RelativeDocumentMoniker": "ToDoListApp.Web\\Controllers\\ToDoListController.cs",
-              "ToolTip": "C:\\_development\\ToDoListApp\\ToDoListApp.Web\\Controllers\\ToDoListController.cs",
-              "RelativeToolTip": "ToDoListApp.Web\\Controllers\\ToDoListController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwCcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T15:43:52.184Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "TodoListsController.cs",
-              "DocumentMoniker": "C:\\_development\\ToDoListApp\\ToDoListApp.Web\\Controllers\\api\\TodoListsController.cs",
-              "RelativeDocumentMoniker": "ToDoListApp.Web\\Controllers\\api\\TodoListsController.cs",
-              "ToolTip": "C:\\_development\\ToDoListApp\\ToDoListApp.Web\\Controllers\\api\\TodoListsController.cs",
-              "RelativeToolTip": "ToDoListApp.Web\\Controllers\\api\\TodoListsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T13:19:37.111Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "AddNewToDoListModel.cs",
               "DocumentMoniker": "C:\\_development\\ToDoListApp\\ToDoListApp.Web\\Models\\AddNewToDoListModel.cs",
               "RelativeDocumentMoniker": "ToDoListApp.Web\\Models\\AddNewToDoListModel.cs",
@@ -183,8 +283,7 @@
               "RelativeToolTip": "ToDoListApp.Web\\Models\\AddNewToDoListModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T13:57:04.889Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-18T13:57:04.889Z"
             }
           ]
         }

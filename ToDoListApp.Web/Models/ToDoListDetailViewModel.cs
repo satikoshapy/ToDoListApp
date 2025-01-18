@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.AspNetCore.Mvc;
+using System.ComponentModel.DataAnnotations;
 using ToDoListApp.Domain;
 
 namespace ToDoListApp.Web.Models
@@ -7,6 +8,7 @@ namespace ToDoListApp.Web.Models
     {
         public ToDoList? List { get; }
 
+        [BindProperty]
         public Guid ListId { get; set; }
 
         [Required(ErrorMessage ="The new item field is required")]
