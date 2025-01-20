@@ -1,5 +1,5 @@
 ﻿@page
-
+@using ToDoListApp.Web.Pages
 @model ToDoListApp.Web.Pages.ToDo.SearchModel
 @{
     ViewData["Title"] = "Search - TODO";
@@ -47,7 +47,7 @@
                     <div class="card my-1">
                         <div class="card-body">
                             <h5 class="card-title">@Html.DisplayFor(modelItem => list.Title)</h5>
-                            <a asp-controller="ToDoList" asp-action="Detail" asp-route-id="@list.Id" class="btn btn-outline-primary">Show details</a>
+                            <a asp-area="" asp-controller="ToDoList" asp-action="Detail" asp-route-id="@list.Id" class="btn btn-outline-primary">Show details</a>
                         </div>
                     </div>
                 }

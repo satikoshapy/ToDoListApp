@@ -28,10 +28,9 @@ namespace ToDoListApp.Infrastructure
             if (list != null)
             {
                 var item = ToDoItem.CreateNew(itemDescription);
-                _context.Attach(item);
+                _context.Set<ToDoItem>().Add(item);
+                
                 list.Items.Add(item);
-                _context.ToDoLists.Update(list);
-                _context.ChangeTracker.DetectChanges();
                 _context.SaveChanges();
             }
             

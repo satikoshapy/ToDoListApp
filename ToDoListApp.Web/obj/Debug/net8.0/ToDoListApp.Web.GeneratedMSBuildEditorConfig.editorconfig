@@ -26,8 +26,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\_development\ToDoListApp\ToDoListApp.Web
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/_development/ToDoListApp/ToDoListApp.Web/Pages/Shared/_SearchLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9TZWFyY2hMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/_development/ToDoListApp/ToDoListApp.Web/Pages/ToDo/Search.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVG9Eb1xTZWFyY2guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/_development/ToDoListApp/ToDoListApp.Web/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/_development/ToDoListApp/ToDoListApp.Web/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/_development/ToDoListApp/ToDoListApp.Web/Views/Home/Index.cshtml]
@@ -36,6 +48,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/_development/ToDoListApp/ToDoListApp.Web/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/_development/ToDoListApp/ToDoListApp.Web/Views/Shared/Components/ToDoItemCount/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcVG9Eb0l0ZW1Db3VudFxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/_development/ToDoListApp/ToDoListApp.Web/Views/Shared/Error.cshtml]

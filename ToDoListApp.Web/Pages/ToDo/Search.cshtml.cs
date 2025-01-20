@@ -1,50 +1,37 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.EntityFrameworkCore;
 using ToDoListApp.AppLogic;
 using ToDoListApp.Domain;
 
-namespace ToDoListApp.Web.Pages.ToDo
+namespace ToDoListApp.Web.Pages.ToDo;
+
+public class SearchModel : PageModel
 {
-    public class SearchModel : PageModel
+    private readonly IToDoListRepository _repository;
+
+    [BindProperty(SupportsGet = true)]
+    public string? TitleFilter { get; set; }
+
+    public List<ToDoList> ToDoLists { get; set; } = new List<ToDoList>();
+
+    public SearchModel(IToDoListRepository repository)
     {
-        private readonly IToDoListRepository _repo;
+        _repository = repository;
+    }
 
-        public SearchModel(IToDoListRepository toDoListRepository)
+    public void OnGet()
+    {
+        // No search is performed on GET
+    }
+
+    public void OnPost()
+    {
+        if (!ModelState.IsValid)
         {
-            _repo = toDoListRepository;
-        }
-        [BindProperty]
-        public string? TitleFilter { get; set; }
-
-        [BindProperty]
-        public List<ToDoList> ToDoLists { get; set; } = new List<ToDoList>();
-        public void OnGet()
-        {
-
-            //return Page();
+            return;
         }
 
-        public IActionResult OnPost()
-        {
-            Console.WriteLine("OnPost invoked");
-            if (!ModelState.IsValid)
-            {
-                // Log the errors for debugging
-                foreach (var error in ModelState)
-                {
-                    Console.WriteLine($"{error.Key}: {string.Join(", ", error.Value.Errors.Select(e => e.ErrorMessage))}");
-                }
-
-                return Page();
-            }
-
-            ToDoLists = string.IsNullOrWhiteSpace(TitleFilter)
-                ? _repo.GetAll().ToList()
-                : _repo.Find(TitleFilter).ToList();
-
-            return Page();
-        }
-
+        // Perform search
+        ToDoLists = _repository.Find(TitleFilter).ToList();
     }
 }

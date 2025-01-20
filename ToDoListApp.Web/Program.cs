@@ -46,13 +46,10 @@ namespace ToDoListApp.Web
             app.UseAuthorization();
             app.MapRazorPages();
             app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+                name: "default",
+                pattern: "{controller=Home}/{action=Index}/{id:guid?}");
 
-            app.MapDefaultControllerRoute();
-    //            (
-    //name: "default",
-    //pattern: "{controller=Home}/{action=Index}/{id?}");
+            
 
             app.Run();
         }
